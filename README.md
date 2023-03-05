@@ -4,7 +4,7 @@ The purpose of this project is to provide a basic understanding of how package m
 
 ## Installation
 
-Install Joks using npm:
+Install `joks` using `npm`:
 
 ```
 npm i -g joks
@@ -14,7 +14,7 @@ npm i -g joks
 
 ### Adding a Package
 
-To add a package to your project using Joks, run the `joks add` command followed by the package name:
+To add a package to your project using `joks`, run the `joks add` command followed by the package name:
 
 ```
 joks add <package>
@@ -22,7 +22,7 @@ joks add <package>
 
 ### Removing a Package
 
-To uninstall a package using Joks, run the `joks remove` command followed by the package name:
+To uninstall a package using `joks`, run the `joks remove` command followed by the package name:
 
 ```
 joks remove <package>
@@ -30,8 +30,8 @@ joks remove <package>
 
 ## Contributing
 
-Thank you for considering contributing to joks! At this time, I am not accepting contributions, but I hope to in the near future. Please check back later for updates on how to contribute.
+Thank you for considering contributing to `joks` ! At this time, I am not accepting contributions, but I hope to in the near future. Please check back later for updates on how to contribute.
 
 ## License
 
-Joks is licensed under the [MIT license](LICENSE).
+`joks` is licensed under the [MIT license](LICENSE).
