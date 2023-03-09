@@ -1,28 +1,30 @@
 #!/usr/bin/env node
 
 import { program } from "commander";
-import install from "../lib/commands/install.js";
+import add from "../lib/commands/add.js";
 import check from "../lib/commands/check.js";
+import remove from "../lib/commands/remove.js";
 
 program.version('0.1.0');
 
 program
-  .command('install <package>')
+  .command('add <package>')
   .alias('i')
-  .alias('add')
+  .alias('install')
   .alias('get')
-  .description('install a package')
+  .description('add a package')
   .action(packageName => {
-    // implementation for installing a package
-    install(packageName)
+    add(packageName)
   });
 
 program
-  .command('uninstall <package>')
-  .description('uninstall a package')
+  .command('remove <package>')
+  .alias('rm')
+  .alias('uninstall')
+  .alias('delete')
+  .description('remove a package')
   .action(packageName => {
-    // implementation for uninstalling a package
-    console.log(`Uninstalling package ${packageName}...`);
+    remove(packageName)
   });
 
 program

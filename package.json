@@ -15,6 +15,7 @@
   "dependencies": {
     "commander": "^10.0.0",
     "node-fetch": "^3.3.0",
-    "tar": "^6.1.13"
+    "tar": "^6.1.13",
+    "joks": "1.0.2"
   }
 }

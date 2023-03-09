@@ -1,0 +1,32 @@
+{
+  "commander": {
+    "version": "10.0.0"
+  },
+  "node-fetch": {
+    "version": "3.3.0",
+    "dependencies": {
+      "data-uri-to-buffer": "^4.0.0",
+      "fetch-blob": "^3.1.4",
+      "formdata-polyfill": "^4.0.10"
+    }
+  },
+  "tar": {
+    "version": "6.1.13",
+    "dependencies": {
+      "chownr": "^2.0.0",
+      "fs-minipass": "^2.0.0",
+      "minipass": "^4.0.0",
+      "minizlib": "^2.1.1",
+      "mkdirp": "^1.0.3",
+      "yallist": "^4.0.0"
+    }
+  },
+  "joks": {
+    "version": "1.0.2",
+    "dependencies": {
+      "commander": "^10.0.0",
+      "node-fetch": "^3.3.0",
+      "tar": "^6.1.13"
+    }
+  }
+}
