@@ -1,6 +1,6 @@
 # joks - a package manager for node.js
 
-The purpose of this project is to provide a basic understanding of how package managers work. Although fully functional, it is not meant to be a production-ready package manager, and is not made for use in real-world projects.
+The purpose of this project is to provide a basic understanding of how package managers work. Although functional, it is not meant to be a production-ready package manager, and is not made for use in real-world projects.
 
 ## Installation
 
