@@ -1,9 +1,7 @@
 #!/usr/bin/env node
 
 import { program } from "commander";
-import add from "../lib/commands/add.js";
-import check from "../lib/commands/check.js";
-import remove from "../lib/commands/remove.js";
+import { add, remove, check } from "../lib/commands/index.js";
 
 program.version("0.1.0");
 
