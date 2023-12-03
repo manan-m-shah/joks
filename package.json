@@ -1,6 +1,6 @@
 {
   "name": "joks",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "a simple package manager for web applications",
   "type": "module",
   "bin": {
